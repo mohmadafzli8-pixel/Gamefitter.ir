@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="GameFight؛ معرفی و دانلود بازی‌های کامپیوتری و اندرویدی">
+  <title>GameFight | دنیای بازی‌ها</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html"><span class="brand-mark">GF</span><span>GAME<span class="accent">FIGHT</span></span></a>
+    <nav><a href="#games">بازی‌ها</a><a href="#about">درباره سایت</a><a href="#submit">معرفی بازی</a></nav>
+    <a class="header-button" href="#games">دیدن بازی‌ها</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">دنیای بازی، یک‌جا</p>
+        <h1>بازی بعدی‌ات<br><span class="accent">اینجاست.</span></h1>
+        <p class="hero-copy">معرفی بازی‌های کامپیوتری و اندرویدی، تصاویر، مشخصات و لینک دانلود در یک جای ساده و مرتب.</p>
+        <div class="hero-actions"><a class="button primary" href="#games">گشتن بین بازی‌ها</a><a class="button secondary" href="#about">درباره GameFight</a></div>
+        <div class="stats"><div><strong>PC</strong><span>بازی‌های ویندوز</span></div><div><strong>Android</strong><span>بازی‌های موبایل</span></div><div><strong>GF</strong><span>خانه گیمرها</span></div></div>
+      </div>
+      <div class="hero-art" aria-label="تصویر گرافیکی تزئینی">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="fighter-card"><div class="fighter-glow"></div><div class="fighter-silhouette">⚔</div><span class="fighter-label">ENTER THE FIGHT</span></div>
+        <span class="floating-tag tag-top">GAME ON</span><span class="floating-tag tag-bottom">PLAY • WIN • REPEAT</span>
+      </div>
+    </section>
+
+    <section class="section" id="games">
+      <div class="section-heading"><div><p class="eyebrow">کتابخانه بازی‌ها</p><h2>بازی‌ها را پیدا کن</h2></div><span class="section-note">نمونه نمایشی — لینک دانلود هنوز اضافه نشده</span></div>
+      <div class="toolbar"><label class="search-box"><span>⌕</span><input id="search" type="search" placeholder="جست‌وجوی نام بازی..."></label><div class="filters"><button class="filter active" data-filter="all">همه</button><button class="filter" data-filter="pc">کامپیوتر</button><button class="filter" data-filter="android">اندروید</button></div></div>
+      <div class="game-grid" id="game-grid">
+        <article class="game-card" data-platform="pc" data-name="بازی فایتینگ اختصاصی">
+          <div class="game-cover cover-fight"><span class="cover-kicker">پروژه اختصاصی</span><strong>GAME<br>FIGHT</strong><span class="cover-symbol">⚔</span></div>
+          <div class="game-info"><div class="pills"><span>کامپیوتر</span><span>در حال ساخت</span></div><h3>بازی فایتینگ اختصاصی</h3><p>پروژه مبارزه‌ای سه‌بعدی که می‌توانی با Godot بسازی و در آینده به سایت اضافه کنی.</p><button class="card-button details" data-title="بازی فایتینگ اختصاصی" data-text="این بازی هنوز ساخته و منتشر نشده است. وقتی نسخه قابل اجرا آماده شد، لینک دانلود واقعی را اینجا اضافه کن.">جزئیات بازی <span>←</span></button></div>
+        </article>
+        <article class="game-card" data-platform="pc" data-name="بازی‌های کامپیوتری">
+          <div class="game-cover cover-pc"><span class="cover-kicker">WINDOWS</span><strong>PC<br>GAMES</strong><span class="cover-symbol">⌨</span></div>
+          <div class="game-info"><div class="pills"><span>کامپیوتر</span><span>نمونه</span></div><h3>بازی‌های کامپیوتری</h3><p>برای هر بازی می‌توانی توضیحات، حداقل سیستم موردنیاز و لینک دانلود مجاز قرار بدهی.</p><button class="card-button details" data-title="بازی‌های کامپیوتری" data-text="این کارت نمونه است. برای انتشار، نام بازی، تصاویر، مشخصات سیستم و لینک دانلود قانونی را اضافه کن.">جزئیات بازی <span>←</span></button></div>
+        </article>
+        <article class="game-card" data-platform="android" data-name="بازی‌های اندرویدی">
+          <div class="game-cover cover-mobile"><span class="cover-kicker">ANDROID</span><strong>MOBILE<br>GAMES</strong><span class="cover-symbol">▣</span></div>
+          <div class="game-info"><div class="pills"><span>اندروید</span><span>نمونه</span></div><h3>بازی‌های اندرویدی</h3><p>صفحه‌ای برای معرفی بازی‌های موبایل و قرار دادن لینک دانلود از منبع معتبر.</p><button class="card-button details" data-title="بازی‌های اندرویدی" data-text="این کارت نمونه است. قبل از انتشار، فایل یا لینک معتبر بازی و اطلاعات نسخه اندروید را اضافه کن.">جزئیات بازی <span>←</span></button></div>
+        </article>
+      </div>
+      <p id="no-results" class="no-results" hidden>بازی‌ای با این عبارت پیدا نشد.</p>
+    </section>
+
+    <section class="feature-band" id="about"><div class="feature-icon">GF</div><div><p class="eyebrow">ساخته‌شده برای گیمرها</p><h2>ساده، سریع و مخصوص بازی</h2><p>GameFight فعلاً قالب اولیه سایت توست. برای انتشار عمومی، دامنه و هاست لازم داری و باید لینک‌های واقعی بازی‌ها را اضافه کنی.</p></div><a class="button secondary" href="#games">دیدن کتابخانه</a></section>
+
+    <section class="section contact" id="submit"><p class="eyebrow">بخش معرفی بازی</p><h2>بازی جدیدی برای سایت داری؟</h2><p>این قالب فرم ارسال ندارد؛ بعداً می‌توانیم فرم واقعی با ایمیل یا پنل مدیریت اضافه کنیم.</p><a class="button primary" href="mailto:mohmadafzli8@gmail.com?subject=GameFight%20-%20معرفی%20بازی">تماس با ایمیل سایت</a></section>
+  </main>
+  <footer><a class="brand" href="#"><span class="brand-mark">GF</span><span>GAME<span class="accent">FIGHT</span></span></a><p>© <span id="year"></span> GameFight — قالب اولیه سایت دانلود بازی</p><span class="footer-note">دانلودها باید از منابع قانونی و قابل‌اعتماد باشند.</span></footer>
+  <dialog id="game-dialog"><button class="dialog-close" aria-label="بستن">×</button><p class="eyebrow">اطلاعات بازی</p><h2 id="dialog-title"></h2><p id="dialog-text"></p><button class="button primary" id="dialog-ok">متوجه شدم</button></dialog>
+  <script src="script.js"></script>
+</body>
+</html>
